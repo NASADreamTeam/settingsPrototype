@@ -14,6 +14,7 @@
 		3FD9B5FC1EB6387F00050002 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3FD9B5FA1EB6387F00050002 /* LaunchScreen.storyboard */; };
 		3FD9B6071EB6387F00050002 /* settingsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FD9B6061EB6387F00050002 /* settingsTests.swift */; };
 		3FD9B6121EB6387F00050002 /* settingsUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FD9B6111EB6387F00050002 /* settingsUITests.swift */; };
+		3FD9B6201EB6732100050002 /* TextFieldTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FD9B61F1EB6732100050002 /* TextFieldTableViewCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +48,7 @@
 		3FD9B60D1EB6387F00050002 /* settingsUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = settingsUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		3FD9B6111EB6387F00050002 /* settingsUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = settingsUITests.swift; sourceTree = "<group>"; };
 		3FD9B6131EB6387F00050002 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3FD9B61F1EB6732100050002 /* TextFieldTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TextFieldTableViewCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,6 +101,7 @@
 			children = (
 				3FD9B5F11EB6387F00050002 /* AppDelegate.swift */,
 				3FD9B5F31EB6387F00050002 /* ViewController.swift */,
+				3FD9B61F1EB6732100050002 /* TextFieldTableViewCell.swift */,
 				3FD9B5F51EB6387F00050002 /* Main.storyboard */,
 				3FD9B5F81EB6387F00050002 /* Assets.xcassets */,
 				3FD9B5FA1EB6387F00050002 /* LaunchScreen.storyboard */,
@@ -262,6 +265,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3FD9B6201EB6732100050002 /* TextFieldTableViewCell.swift in Sources */,
 				3FD9B5F41EB6387F00050002 /* ViewController.swift in Sources */,
 				3FD9B5F21EB6387F00050002 /* AppDelegate.swift in Sources */,
 			);
